@@ -11,7 +11,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <robocode.version>1.8.1.0</robocode.version>
-        <robocode.home>c:/Users/emi/agilecodeninjas/robocode</robocode.home>
     </properties>
 
     <dependencies>
@@ -41,9 +40,9 @@
             <version>${robocode.version}</version>
         </dependency>
         <dependency>
-            <groupId>net.sourceforge.robocode</groupId>
+            <groupId>org.picocontainer</groupId>
             <artifactId>picocontainer</artifactId>
-            <version>2.14.2</version>
+            <version>2.14.3</version>
         </dependency>
 
         <dependency>
